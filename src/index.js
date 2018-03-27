@@ -10,7 +10,7 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 const Root = () => (
-  <Router>
+  <Router basename="/react-news-app/">
     <div>
       <Navbar>
         <Navbar.Header>
